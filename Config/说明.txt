@@ -1,0 +1,2 @@
+config.ini--定义配置文件
+Config.py --封装读取配置ini文件

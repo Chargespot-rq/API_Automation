@@ -1,0 +1,3 @@
+conftest  --fixture¹²ÏíÎÄ¼ş
+testcase1
+testcase2

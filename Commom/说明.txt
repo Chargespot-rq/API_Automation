@@ -1,0 +1,7 @@
+Assert.py --封装Assert
+Consts.py --定义全局变量
+Email.py  --封装SMTP
+Log.py    --封装记录log方法
+Request.py--封装请求方法
+Session.py--创建session
+Shell.py  --封装shell命令

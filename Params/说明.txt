@@ -1,0 +1,3 @@
+Yaml      --测试数据存储
+params.py --按照模块封装测试数据
+tools.py  --封装读取Yaml方法

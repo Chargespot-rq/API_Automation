@@ -1,0 +1,2 @@
+err.log --´æ´¢´íÎólog
+log.log --´æ´¢log

@@ -1,0 +1,2 @@
+xml --存放xml报告
+html--存放html报告
