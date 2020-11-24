@@ -1,0 +1,63 @@
+{
+	"item": [{
+		"request": {
+			"url": "http://api.demo.chargespot.cn/v1/member/55550001/sign",
+			"body": {
+				"verificationCode": 1234,
+				"countryId": 84,
+				"version": 10.3
+			}
+		},
+		"response": {
+			"memberCoupons": [],
+			"totalAmount": 0,
+			"firstLogin": false,
+			"rechargeRule": {
+				"deposit": "5.0",
+				"jPRechargeRemark1": "",
+				"jPRechargeRemark2": "",
+				"pointRate": 0,
+				"preOauthFee": "",
+				"rechargeAmount": [
+					"3",
+					"4",
+					"10",
+					"100"
+				]
+			},
+			"member": {
+				"aliPayHkWithholding": 0,
+				"balance": 48,
+				"birthday": "",
+				"countryId": 84,
+				"couponsCount": 0,
+				"currency": "HKD",
+				"currencySymbol": "HK$",
+				"depositAmount": 99,
+				"depositState": 4,
+				"gender": 0,
+				"headImg": "http://chacha-test.oss-cn-shenzhen.aliyuncs.com/image/20191009/20191009035515998.png",
+				"id": 4569,
+				"japanMemberShowMenu": "",
+				"japanMemberShowMenuUrl": "",
+				"lendCount": 0,
+				"memberForm": 0,
+				"mobile": "55550001",
+				"name": "55550001",
+				"notPayPrice": 0,
+				"phoneType": "",
+				"rechargeDepositCount": 0,
+				"tPointInfo": {
+					"bind": false,
+					"point": ""
+				},
+				"thirdAccount": ""
+			},
+			"hasRegisterCoupon": false,
+			"unBindTips": "",
+			"hasSign": true,
+			"gmoGrantedExpiredTips": "",
+			"discountValue": 0
+		}
+	}]
+}

@@ -1,0 +1,2 @@
+url,boby,expect
+http://api.demo.chargespot.cn/v1/member/55550001/sign,"{""verificationCode"": 1234,""countryId"": 84,""version"": 10.3}",10001
