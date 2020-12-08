@@ -5,15 +5,17 @@ from email.header import Header
 from Commom.Get_report import *
 from Config.config import *
 import smtplib
+
+
 # 发送邮件，发送最新测试报告html
 def send_email():
     # 打开文件
-    f = open(new_file(), 'r',encoding='utf-8')
+    f = open(new_file(), 'r', encoding='utf-8')
     # 读取文件内容
     mail_body = f.read()
     # 调试使用
     # print u'打印'
-    #print (mail_body)
+    # print (mail_body)
     # 关闭文件
     f.close()
 
@@ -26,7 +28,7 @@ def send_email():
     sender = sendto
 
     # 多个接收邮箱，单个收件人的话，直接是receiver='XXX@163.com'
-    #receiver = ['liuwb@shushangyun.com', '13798963487@139.com']
+    # receiver = ['liuwb@shushangyun.com', '13798963487@139.com']
     receiver = receivers
 
     # 发送邮件主题
