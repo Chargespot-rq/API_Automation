@@ -17,6 +17,7 @@ def test_json_login(data):
     ilog.logger.info('实际结果：%s' % r.json()['dataInfo'])
     try:
         assert r.json()['dataInfo'] == data["response"]
+
     except:
         elog.logger.error('数据不一致')
         assert False
