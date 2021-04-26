@@ -24,5 +24,8 @@ receivers = ['benvin@dingtalk.com', 'hongzhihong@dingtalk.com', 'xyunkai@dingtal
 # 数据库配置
 mysql = MysqlHelper(host='47.52.4.209', port=5666, db='cdb', user='cdb', passwd='cdbChargespot@2020',
                     charset='utf8')
+#访问环境
+test_evrmt = 'http://api.demo.chargespot.cn'
+pre_evrmt = 'http://api.pre.chargespot.cn'
 # re = mysql.all("select id,store_value from member WHERE mobile = '13798963487'")
 # print(type(re))
