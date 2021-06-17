@@ -19,11 +19,13 @@ mail_pwd = 'jxsg2018.'
 sendto = '17728193080@sina.cn'
 
 # 报告接收人
-receivers = ['benvin@dingtalk.com', 'hongzhihong@dingtalk.com', 'xyunkai@dingtalk.com']
+receivers = ['benvin@dingtalk.com']
 
 # 数据库配置
-mysql = MysqlHelper(host='47.52.4.209', port=5666, db='cdb', user='cdb', passwd='cdbChargespot@2020',
+mysql_test = MysqlHelper(host='47.52.4.209', port=5666, db='cdb', user='cdb', passwd='cdbChargespot@2020',
                     charset='utf8')
+#mysql_pre
+
 #访问环境
 test_evrmt = 'http://api.demo.chargespot.cn'
 pre_evrmt = 'http://api.pre.chargespot.cn'

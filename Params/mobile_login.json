@@ -13,13 +13,13 @@
 			"totalAmount": 0,
 			"firstLogin": false,
 			"rechargeRule": {
-				"deposit": "5.0",
+				"deposit": "4.0",
 				"jPRechargeRemark1": "",
 				"jPRechargeRemark2": "",
 				"pointRate": 0,
 				"preOauthFee": "",
 				"rechargeAmount": [
-					"3",
+					"1",
 					"4",
 					"10",
 					"100"
@@ -27,7 +27,7 @@
 			},
 			"member": {
 				"aliPayHkWithholding": 0,
-				"balance": 48,
+				"balance": 36,
 				"birthday": "",
 				"countryId": 84,
 				"couponsCount": 0,
